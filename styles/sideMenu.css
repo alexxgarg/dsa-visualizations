@@ -1,0 +1,13 @@
+.sideMenu {
+  width: 20%;
+}
+
+.menuOption {
+  background-color: transparent;
+  color: black;
+  margin: 10px;
+}
+
+.menuOption:hover{
+  background-color: rebeccapurple;
+}

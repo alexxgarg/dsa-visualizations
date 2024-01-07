@@ -1,0 +1,16 @@
+.header {
+  background-color:cadetblue; 
+  color: #fff; 
+  text-align: center;
+  padding: 10px 0;
+  height: 50px;
+}
+
+.header-content {
+  font-family: 'Roboto', cursive; 
+}
+
+.header-title {
+  font-size: 2rem;
+  margin: 0;
+}

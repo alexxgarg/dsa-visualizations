@@ -1,0 +1,38 @@
+/* TreeNode.css */
+
+.node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .node .arrow {
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: -40px;
+  }
+  
+  .node .arrow::before,
+  .node .arrow::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .node .arrow::before {
+    transform: rotate(45deg);
+    right: -5px;
+  }
+  
+  .node .arrow::after {
+    transform: rotate(-45deg);
+    left: -5px;
+  }
+  
